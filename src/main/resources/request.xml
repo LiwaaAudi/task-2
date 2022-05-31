@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://liwaaaudi.viko.lt/task-2">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:name>Liwaa</us:name>
+        </us:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
